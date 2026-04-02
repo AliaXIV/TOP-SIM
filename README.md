@@ -42,7 +42,7 @@ The sim files are provided on the [Releases](https://github.com/AliaXIV/TOP-SIM/
  - Pause simulation option
  - Free Cam "observer" mode
  - Automarker toggle for certain mechanics
- - Cleanup some materials to lokk more accurate
+ - Cleanup some materials to look more accurate
  - Add gapclosers
  - Add cast bars and enmity list
  - Add correct animations and replace some of the generic AoE effects with dedicated ones that are more accurate to how game renders it
@@ -57,6 +57,6 @@ The sim files are provided on the [Releases](https://github.com/AliaXIV/TOP-SIM/
 
 # About
 
-If you ancountered any issues or problems make sure to let me know via [GitHub issue system](https://github.com/AliaXIV/TOP-SIM/issues)!
+If you encountered any issues or problems make sure to let me know via [GitHub issue system](https://github.com/AliaXIV/TOP-SIM/issues)!
 
 This is a passion project I'm developing in my free time. If you found it helpful and want to support a project you can do so with [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/aliaxiv) 😊
