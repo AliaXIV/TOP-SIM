@@ -27,13 +27,13 @@ The sim files are provided on the [Releases](https://github.com/AliaXIV/TOP-SIM/
 | P2 Limitless Synergy      | ❌ Planned (Late) | Probably does not require sim at all, but will get implemented for consistency |
 | Intermission              | ⏳ Planned        | --- |
 | P3 Hello World            | ❌ Planned (Late) | --- |
-| P3 Monitors               | 🚧 In Progress    | --- |
+| P3 Monitors               | ✅ Complete       | --- |
 | P4                        | ⏳ Planned        | --- |
 | P5 Delta                  | ✅ Complete       | --- |
 | P5 Sigma                  | ✅ Complete       | --- |
 | P5 Omega                  | ✅ Complete       | --- |
-| P6 Exalines               | 🚧 In Progress    | Almost done, planned version with selectable Cosmo Dive/Wave cannon follow up|
-| P6 Full Phase             | ❌ Planned (Late) | Because of the nature of P6 (pacing, full body/consistency check) entire P6 sim is planned in the future |
+| P6 Exalines               | ✅ Complete       |  Two options, with Cosmo Dive 1 and Wave Cannon 2|
+| P6 Full Phase             | 🚧 In Progress    | Because of the nature of P6 (pacing, full body/consistency check) entire P6 sim is planned in the future |
 
 ## TODO
  - Implement remaining mechanics
@@ -42,7 +42,6 @@ The sim files are provided on the [Releases](https://github.com/AliaXIV/TOP-SIM/
  - Pause simulation option
  - Free Cam "observer" mode
  - Automarker toggle for certain mechanics
- - Cleanup some materials to look more accurate
  - Add gapclosers
  - Add cast bars and enmity list
  - Add correct animations and replace some of the generic AoE effects with dedicated ones that are more accurate to how game renders it
@@ -50,8 +49,8 @@ The sim files are provided on the [Releases](https://github.com/AliaXIV/TOP-SIM/
  - UI control with a controller
 
 ## Known issues
-- Mechanics that resolve on death (eg. dying with Nello Distant World debuff) trigger, but the simulation for everything else, including bot movement, will still continue leading to unsolvable states
-- Some AOE indicators render on top of some other game elements, eg. tethers in Delta
+- Delta Same RNG is not working correctly
+- On simulation failure characters keep their animation if they were moving
 - Fauilure list is not scrolling properly when it's overflowed
 - Some character models have issues with clipping of some parts of the models
 
